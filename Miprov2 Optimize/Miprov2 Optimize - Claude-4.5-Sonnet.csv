@@ -1,0 +1,2501 @@
+prompt,user_query,gold_label,predicted_label,match
+"Classify a banking-related user query into a single given intent.
+
+User query:
+why do I have an unknown payment?
+",why do I have an unknown payment?,card_payment_not_recognised,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I made the incorrect payment for my rent yesterday and this needs to be fixed by no later than tomorrow. How can you help?
+",I made the incorrect payment for my rent yesterday and this needs to be fixed by no later than tomorrow. How can you help?,cancel_transfer,cancel_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I didn't get a PIN yet. What gives?
+",I didn't get a PIN yet. What gives?,get_physical_card,card_arrival,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I tried to use my disposable virtual card to pay a subscription to the gym and it got rejected. Any ideas why?
+",I tried to use my disposable virtual card to pay a subscription to the gym and it got rejected. Any ideas why?,virtual_card_not_working,disposable_card_limits,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+what is the fee for topping up by card?
+",what is the fee for topping up by card?,top_up_by_card_charge,top_up_by_card_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I replace a card that's going to expire?
+",How do I replace a card that's going to expire?,card_about_to_expire,card_about_to_expire,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I could not get my card to work at a shop.
+",I could not get my card to work at a shop.,declined_card_payment,card_not_working,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+An incorrect exchange rate was applied to an item I bought.
+",An incorrect exchange rate was applied to an item I bought.,card_payment_wrong_exchange_rate,card_payment_wrong_exchange_rate,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why is there a payment showing twice?
+",Why is there a payment showing twice?,transaction_charged_twice,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I see non-received cash in my app.
+",I see non-received cash in my app.,cash_withdrawal_not_recognised,wrong_amount_of_cash_received,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I  have been charged more than I should for the presents I bought  when abroad, the problem seems to be the exchange rate.
+","I  have been charged more than I should for the presents I bought  when abroad, the problem seems to be the exchange rate.",card_payment_wrong_exchange_rate,card_payment_wrong_exchange_rate,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+The money has not yet been placed in recipients account.
+",The money has not yet been placed in recipients account.,transfer_not_received_by_recipient,pending_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why hasn't the transaction I did to my friend arrived yet?
+",Why hasn't the transaction I did to my friend arrived yet?,transfer_not_received_by_recipient,pending_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How much is a physical card?
+",How much is a physical card?,order_physical_card,get_physical_card,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I want to top up by using a credit card, which ones do you support?
+","I want to top up by using a credit card, which ones do you support?",supported_cards_and_currencies,supported_cards_and_currencies,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+where can I get the info for my funds
+",where can I get the info for my funds,verify_source_of_funds,balance_not_updated_after_bank_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+is there a fee for swift transfer
+",is there a fee for swift transfer,top_up_by_bank_transfer_charge,top_up_by_bank_transfer_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I have a disposable card but it does not work?
+",I have a disposable card but it does not work?,virtual_card_not_working,card_not_working,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+there is a transfer pending.
+",there is a transfer pending.,pending_transfer,pending_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What do I do if I can't get my card out of the ATM?
+",What do I do if I can't get my card out of the ATM?,card_swallowed,card_swallowed,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can my PIN be changed in any cash machine?
+",Can my PIN be changed in any cash machine?,change_pin,atm_support,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How can I change my old pin to a new one?
+",How can I change my old pin to a new one?,change_pin,edit_personal_details,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+When can I expect the transfer to arrive in my account?
+",When can I expect the transfer to arrive in my account?,transfer_timing,pending_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What do I need in regards to identification?
+",What do I need in regards to identification?,verify_my_identity,verify_my_identity,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Please sort your top up! My top up has been pending for an hour already. Can you please make it go through as soon as possible. I really need the money.
+",Please sort your top up! My top up has been pending for an hour already. Can you please make it go through as soon as possible. I really need the money.,pending_top_up,top_up_failed,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Where can I find my PIN? I haven't gotten it yet.
+",Where can I find my PIN? I haven't gotten it yet.,get_physical_card,card_arrival,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Do I have to go to an actual bank to change my PIN?
+",Do I have to go to an actual bank to change my PIN?,change_pin,edit_personal_details,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Please cancel my last transaction.
+",Please cancel my last transaction.,cancel_transfer,cancel_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I have been charged twice for the same thing!
+",I have been charged twice for the same thing!,transaction_charged_twice,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Are there any ATM's near me that accept this card?
+",Are there any ATM's near me that accept this card?,atm_support,atm_support,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My PIN tries have run out. Now what?
+",My PIN tries have run out. Now what?,pin_blocked,pin_blocked,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can cash be used in physical locations to top up?
+",Can cash be used in physical locations to top up?,top_up_by_cash_or_cheque,top_up_by_cash_or_cheque,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+There is a record of payment I never submitted on the app.
+",There is a record of payment I never submitted on the app.,card_payment_not_recognised,direct_debit_payment_not_recognised,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How can I prove I am me?
+",How can I prove I am me?,verify_my_identity,verify_my_identity,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I didn't cancel my card payment.
+",I didn't cancel my card payment.,reverted_card_payment?,reverted_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+The exchange rate was wrong in the foreign country I got cash in.
+",The exchange rate was wrong in the foreign country I got cash in.,wrong_exchange_rate_for_cash_withdrawal,wrong_exchange_rate_for_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is there something wrong with the ATM? It would not let me pull cash out of my account.
+",Is there something wrong with the ATM? It would not let me pull cash out of my account.,declined_cash_withdrawal,declined_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+what are your exchange rates at?
+",what are your exchange rates at?,exchange_rate,exchange_rate,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Tell me why my card payment would be reverted.
+",Tell me why my card payment would be reverted.,reverted_card_payment?,reverted_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I have made 5 attempts to make a very standard survey, yet I can't get it to work. What is the problem? Is there an issue related to your system?
+","I have made 5 attempts to make a very standard survey, yet I can't get it to work. What is the problem? Is there an issue related to your system?",failed_transfer,unable_to_verify_identity,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How long do transfers take, mine just says pending?
+","How long do transfers take, mine just says pending?",pending_transfer,pending_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Will you be able to exchange to EUR?
+",Will you be able to exchange to EUR?,fiat_currency_support,fiat_currency_support,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How come when I tried to pay contactless at the bus it didnt work?
+",How come when I tried to pay contactless at the bus it didnt work?,contactless_not_working,contactless_not_working,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Would it be possible to open up an account for children?
+",Would it be possible to open up an account for children?,age_limit,age_limit,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Where can I order a card when I am in China?
+",Where can I order a card when I am in China?,card_about_to_expire,country_support,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I get my card out of the ATM?
+",How do I get my card out of the ATM?,card_swallowed,card_swallowed,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+The cheque I deposited isn't showing in my account
+",The cheque I deposited isn't showing in my account,balance_not_updated_after_cheque_or_cash_deposit,balance_not_updated_after_cheque_or_cash_deposit,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Hi, would you please activate my card?
+","Hi, would you please activate my card?",activate_my_card,activate_my_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I made a check deposit but the cash hasn't arrived in my account yet.
+",I made a check deposit but the cash hasn't arrived in my account yet.,balance_not_updated_after_cheque_or_cash_deposit,balance_not_updated_after_cheque_or_cash_deposit,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Hey I am standing in front of an ATM here, it only gave me 10 pounds even though I wanted to withdraw 30! Seems like the app has 30 pounds, what do I do??
+","Hey I am standing in front of an ATM here, it only gave me 10 pounds even though I wanted to withdraw 30! Seems like the app has 30 pounds, what do I do??",wrong_amount_of_cash_received,wrong_amount_of_cash_received,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Where are the cards transported to?
+",Where are the cards transported to?,order_physical_card,country_support,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I tried to withdraw cash and got declined, why is that?
+","I tried to withdraw cash and got declined, why is that?",declined_cash_withdrawal,declined_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why do I see a random withdrawal in my app?
+",Why do I see a random withdrawal in my app?,cash_withdrawal_not_recognised,cash_withdrawal_not_recognised,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Hi, I used an ATM today to take money out of my account, but the amount it gave me is not the amount I requested. What should I do?
+","Hi, I used an ATM today to take money out of my account, but the amount it gave me is not the amount I requested. What should I do?",wrong_amount_of_cash_received,wrong_amount_of_cash_received,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why was my cash withdrawal cancelled at the ATM?
+",Why was my cash withdrawal cancelled at the ATM?,declined_cash_withdrawal,declined_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Looks like my card payment was duplicated after all. I went to pay at the store earlier, got declined once, second time it works. App still stays pending for one of the payments. Can you please remove one of them as it's wrong and clearly was declined?
+","Looks like my card payment was duplicated after all. I went to pay at the store earlier, got declined once, second time it works. App still stays pending for one of the payments. Can you please remove one of them as it's wrong and clearly was declined?",transaction_charged_twice,pending_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My card payment's cancelled
+",My card payment's cancelled,reverted_card_payment?,reverted_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why has my top up been returned?
+",Why has my top up been returned?,top_up_reverted,top_up_reverted,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My wallet got stolen a couple hours ago and now I've seen there already is a withdrawal. Help this is absolutely urgent I don't want to loose more money
+",My wallet got stolen a couple hours ago and now I've seen there already is a withdrawal. Help this is absolutely urgent I don't want to loose more money,cash_withdrawal_not_recognised,lost_or_stolen_card,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I have not received my card and it's been a week, what do I do?
+","I have not received my card and it's been a week, what do I do?",card_arrival,card_arrival,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I verify my identity online
+",How do I verify my identity online,verify_my_identity,verify_my_identity,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+If there isn't a lot of money left, will it automatically top-up money?
+","If there isn't a lot of money left, will it automatically top-up money?",automatic_top_up,automatic_top_up,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Where is the transfer that I did?
+",Where is the transfer that I did?,balance_not_updated_after_bank_transfer,pending_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I need to make several disposable cards per day.
+",I need to make several disposable cards per day.,disposable_card_limits,disposable_card_limits,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+The past few times I've been to the ATM, I was charged a withdrawal fee. Have your policies changed regarding fees?
+","The past few times I've been to the ATM, I was charged a withdrawal fee. Have your policies changed regarding fees?",cash_withdrawal_charge,cash_withdrawal_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I haven't received my card.
+",I haven't received my card.,card_arrival,card_arrival,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Do you accept all cards and currencies?
+",Do you accept all cards and currencies?,supported_cards_and_currencies,supported_cards_and_currencies,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is it possible for me to change my PIN number?
+",Is it possible for me to change my PIN number?,change_pin,edit_personal_details,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I keep trying to make a payment, but it doesn't work.
+","I keep trying to make a payment, but it doesn't work.",declined_card_payment,declined_card_payment,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What's the reason for needing to verify my identity?
+",What's the reason for needing to verify my identity?,why_verify_identity,why_verify_identity,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How long does a transfer from a UK account take? I just made one and it doesn't seem to be working, wondering if everything is okay
+","How long does a transfer from a UK account take? I just made one and it doesn't seem to be working, wondering if everything is okay",balance_not_updated_after_bank_transfer,pending_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I would really like a physical card.
+",I would really like a physical card.,order_physical_card,get_physical_card,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I transferred money to another country several days ago, but my transaction is still pending. i have checked that the accounts are keyed in correctly. what sees to be the problem?
+","I transferred money to another country several days ago, but my transaction is still pending. i have checked that the accounts are keyed in correctly. what sees to be the problem?",pending_transfer,pending_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why is my transfer pending?
+",Why is my transfer pending?,pending_transfer,pending_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What is the process to get a new card when your old one expires?
+",What is the process to get a new card when your old one expires?,card_about_to_expire,card_about_to_expire,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Shouldn't my new card be here by now?
+",Shouldn't my new card be here by now?,card_arrival,card_arrival,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Do I get Visa or Mastercard?
+",Do I get Visa or Mastercard?,visa_or_mastercard,visa_or_mastercard,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I just checked my account on the App and there is a payment on there that I did not make.
+",I just checked my account on the App and there is a payment on there that I did not make.,card_payment_not_recognised,direct_debit_payment_not_recognised,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What factors effect the exchange rate?
+",What factors effect the exchange rate?,exchange_rate,exchange_rate,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is there a limit for top ups?
+",Is there a limit for top ups?,top_up_limits,top_up_limits,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I need to know what is going on. I'm attempting to purchase a flat and need the money to pay on my initial mortgage payment. I'm only getting an error. Can you find out what's going on and help in making the transfer?
+",I need to know what is going on. I'm attempting to purchase a flat and need the money to pay on my initial mortgage payment. I'm only getting an error. Can you find out what's going on and help in making the transfer?,failed_transfer,failed_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I use as many top-ups as I want?
+",Can I use as many top-ups as I want?,top_up_limits,top_up_limits,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why hasn't my balance been updated from the check deposit I made?
+",Why hasn't my balance been updated from the check deposit I made?,balance_not_updated_after_cheque_or_cash_deposit,balance_not_updated_after_cheque_or_cash_deposit,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What are the guidelines for the disposable cards?
+",What are the guidelines for the disposable cards?,disposable_card_limits,disposable_card_limits,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can this app take my salary?
+",Can this app take my salary?,receiving_money,receiving_money,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I got a new address and need to change my old one.
+",I got a new address and need to change my old one.,edit_personal_details,edit_personal_details,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Where can I find the top up verification code?
+",Where can I find the top up verification code?,verify_top_up,topping_up_by_bank_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+how soon will my card arrive?
+",how soon will my card arrive?,card_delivery_estimate,card_delivery_estimate,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How can I exchange to EUR?
+",How can I exchange to EUR?,fiat_currency_support,exchange_via_app,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+i have yet to get my pin
+",i have yet to get my pin,get_physical_card,card_arrival,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I had a payment reverted and would like to figure out why.
+",I had a payment reverted and would like to figure out why.,reverted_card_payment?,reverted_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why was my card declined in a shop?
+",Why was my card declined in a shop?,declined_card_payment,declined_card_payment,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Where are the cards delivered to
+",Where are the cards delivered to,order_physical_card,card_delivery_estimate,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I did a transfer and I was charged a fee that shouldn't be there!
+",I did a transfer and I was charged a fee that shouldn't be there!,transfer_fee_charged,charged_fee_wrong,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What kind of costs are involved for exchanging currency?
+",What kind of costs are involved for exchanging currency?,exchange_charge,exchange_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+During the last month I used this account to make payments for my place abroad. I noticed the fees have increased and I wonder why. Shouldn't frequent users have less fees as incentive to keep using instead of increasing them out of nowhere?
+",During the last month I used this account to make payments for my place abroad. I noticed the fees have increased and I wonder why. Shouldn't frequent users have less fees as incentive to keep using instead of increasing them out of nowhere?,transfer_fee_charged,charged_fee_wrong,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My card stopped working after multiple transactions. Why?
+",My card stopped working after multiple transactions. Why?,card_not_working,card_not_working,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is it possible for me to track the card is was mailed to me?
+",Is it possible for me to track the card is was mailed to me?,card_arrival,card_arrival,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My card payment was not successful.
+",My card payment was not successful.,declined_card_payment,declined_card_payment,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is it possible someone has access to my card? I noticed that there are a couple of payments in the app I'm sure I did not make. Can you find out what's going on here?
+",Is it possible someone has access to my card? I noticed that there are a couple of payments in the app I'm sure I did not make. Can you find out what's going on here?,card_payment_not_recognised,compromised_card,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I made a check and cash deposit that wasn't credited to my account.
+",I made a check and cash deposit that wasn't credited to my account.,balance_not_updated_after_cheque_or_cash_deposit,balance_not_updated_after_cheque_or_cash_deposit,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+how can i get it to add money automatically while travelling
+",how can i get it to add money automatically while travelling,automatic_top_up,automatic_top_up,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I attempted to complete a topup, and I thought all was well, but now the money is gone again. Has there been a glitch?
+","I attempted to complete a topup, and I thought all was well, but now the money is gone again. Has there been a glitch?",top_up_reverted,top_up_reverted,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I choose from either Visa or Mastercard?
+",Can I choose from either Visa or Mastercard?,visa_or_mastercard,visa_or_mastercard,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I need to know why a money transfer is available.
+",I need to know why a money transfer is available.,pending_transfer,pending_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What are the restrictions on the virtual cards?
+",What are the restrictions on the virtual cards?,disposable_card_limits,disposable_card_limits,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How come the money from the merchant appeared back into my account?
+",How come the money from the merchant appeared back into my account?,reverted_card_payment?,reverted_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why isn't my cash deposit showing up in my account? I deposited it this morning.
+",Why isn't my cash deposit showing up in my account? I deposited it this morning.,balance_not_updated_after_cheque_or_cash_deposit,balance_not_updated_after_cheque_or_cash_deposit,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+limits on top ups
+",limits on top ups,top_up_limits,top_up_limits,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+After reviewing my charges, I see I was charged a fee for a transfer I did, why?
+","After reviewing my charges, I see I was charged a fee for a transfer I did, why?",transfer_fee_charged,top_up_by_bank_transfer_charge,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What currencies can I use?
+",What currencies can I use?,supported_cards_and_currencies,fiat_currency_support,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I didn't get all the cash I asked for
+",I didn't get all the cash I asked for,wrong_amount_of_cash_received,wrong_amount_of_cash_received,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why am I not allowed to add a certain beneficiary?
+",Why am I not allowed to add a certain beneficiary?,beneficiary_not_allowed,beneficiary_not_allowed,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I don't recognize the direct debit payment from the app.
+",I don't recognize the direct debit payment from the app.,direct_debit_payment_not_recognised,direct_debit_payment_not_recognised,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why was I charged an extra fee when doing a transfer?
+",Why was I charged an extra fee when doing a transfer?,transfer_fee_charged,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why was I charged this extra fee while doing a transfer?
+",Why was I charged this extra fee while doing a transfer?,transfer_fee_charged,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why is their a charge pending on my card still?
+",Why is their a charge pending on my card still?,pending_card_payment,pending_card_payment,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What is going on? I have checked over and over and the details of my account are right. Why is my transfer still pending? It's 2018 not 1818. Transfering money to another country can't be that hard.
+",What is going on? I have checked over and over and the details of my account are right. Why is my transfer still pending? It's 2018 not 1818. Transfering money to another country can't be that hard.,pending_transfer,pending_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why was there an extra charge when I transferred money?
+",Why was there an extra charge when I transferred money?,transfer_fee_charged,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why are my transfers getting declined?
+",Why are my transfers getting declined?,declined_transfer,declined_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I purchased something about one to two weeks ago but for some reason the payment was returned to my account today even though I've already received one of the items. Can you tell me what's going on?
+",I purchased something about one to two weeks ago but for some reason the payment was returned to my account today even though I've already received one of the items. Can you tell me what's going on?,reverted_card_payment?,reverted_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can you give me a virtual card?
+",Can you give me a virtual card?,getting_virtual_card,getting_virtual_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+A transfer has been made in my account that I need to cancel.  This was a mistake on my part and I hope we can get this resolved quickly.
+",A transfer has been made in my account that I need to cancel.  This was a mistake on my part and I hope we can get this resolved quickly.,cancel_transfer,cancel_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I have a strange transaction for £1 on my statement, what is that?
+","I have a strange transaction for £1 on my statement, what is that?",extra_charge_on_statement,extra_charge_on_statement,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My refund has not arrived, and I am unsure why. Who do I contact?
+","My refund has not arrived, and I am unsure why. Who do I contact?",Refund_not_showing_up,refund_not_received,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I go about cancelling a transaction?
+",How do I go about cancelling a transaction?,cancel_transfer,cancel_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How long does it take for something to be delivered to the U.S?
+",How long does it take for something to be delivered to the U.S?,card_delivery_estimate,card_delivery_estimate,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My card hasn't came in the mail yet?
+",My card hasn't came in the mail yet?,card_arrival,card_arrival,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What should I do once my card expires?
+",What should I do once my card expires?,card_about_to_expire,card_about_to_expire,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I use your app to exchange between USD and GBP
+",Can I use your app to exchange between USD and GBP,exchange_via_app,exchange_via_app,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+In my account I noticed my ATM withdrawal is still pending
+",In my account I noticed my ATM withdrawal is still pending,pending_cash_withdrawal,pending_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I withdrew cash and I think the exchange rate is wrong.
+",I withdrew cash and I think the exchange rate is wrong.,wrong_exchange_rate_for_cash_withdrawal,wrong_exchange_rate_for_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is a physical card also available
+",Is a physical card also available,order_physical_card,get_physical_card,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I found my card again. Can I put it back into the app?
+",I found my card again. Can I put it back into the app?,card_linking,card_linking,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What are the reasons why a card payment would be declined?
+",What are the reasons why a card payment would be declined?,declined_card_payment,declined_card_payment,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Let me know what the steps for the identity checks are
+",Let me know what the steps for the identity checks are,verify_my_identity,verify_my_identity,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can you tell me why my card payment did not work?
+",Can you tell me why my card payment did not work?,declined_card_payment,declined_card_payment,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+The top-up did not go through.
+",The top-up did not go through.,top_up_failed,top_up_failed,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How is the exchange rate calculated?
+",How is the exchange rate calculated?,exchange_rate,exchange_rate,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why did the funds for one of my purchase come back to my account?
+",Why did the funds for one of my purchase come back to my account?,reverted_card_payment?,reverted_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is the fee with my cash withdrawal a mistake?
+",Is the fee with my cash withdrawal a mistake?,cash_withdrawal_charge,cash_withdrawal_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why was my ATM withdrawal cancelled?
+",Why was my ATM withdrawal cancelled?,declined_cash_withdrawal,declined_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+After making a payment with my card it doesn't seem to have worked. It's just showing to be pending. When will this actually be going through?
+",After making a payment with my card it doesn't seem to have worked. It's just showing to be pending. When will this actually be going through?,pending_card_payment,pending_card_payment,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What am i missing to verify my id?
+",What am i missing to verify my id?,unable_to_verify_identity,verify_my_identity,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Top up did not work on the app.
+",Top up did not work on the app.,top_up_failed,top_up_failed,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I'm still waiting on my identity verification.
+",I'm still waiting on my identity verification.,unable_to_verify_identity,unable_to_verify_identity,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What's the limit on total number of cards I can have?
+",What's the limit on total number of cards I can have?,getting_spare_card,disposable_card_limits,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I must make several disposable cards every day.
+",I must make several disposable cards every day.,disposable_card_limits,disposable_card_limits,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can you please explain the topping up transfer process?
+",Can you please explain the topping up transfer process?,transfer_into_account,topping_up_by_bank_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My client was converting their Russian ruble into UK pound currency when they noticed their bill was much too high for the exchange. What happened?
+",My client was converting their Russian ruble into UK pound currency when they noticed their bill was much too high for the exchange. What happened?,card_payment_wrong_exchange_rate,charged_exchange_rate_wrong,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+If I bought something I didn't like, can I get a refund?
+","If I bought something I didn't like, can I get a refund?",request_refund,refund_not_received,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I did a cash deposit to my account, but I am not seeing it on my statement.
+","I did a cash deposit to my account, but I am not seeing it on my statement.",balance_not_updated_after_cheque_or_cash_deposit,balance_not_updated_after_cheque_or_cash_deposit,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Am I charged for receiving money?
+",Am I charged for receiving money?,top_up_by_bank_transfer_charge,receiving_money,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I just looked over my statement and I don't recognize the name of a card payment.
+",I just looked over my statement and I don't recognize the name of a card payment.,card_payment_not_recognised,direct_debit_payment_not_recognised,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How can I tell the source for my available funds?
+",How can I tell the source for my available funds?,verify_source_of_funds,receiving_money,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Whats the maximum disposable virtual cards?
+",Whats the maximum disposable virtual cards?,disposable_card_limits,disposable_card_limits,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+If i want to change my pin number can I directly from an ATM?
+",If i want to change my pin number can I directly from an ATM?,change_pin,edit_personal_details,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+At what ATM can I change my PIN?
+",At what ATM can I change my PIN?,change_pin,atm_support,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I have a transfer that is pending.
+",I have a transfer that is pending.,pending_transfer,pending_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I pay with my card anywhere?
+",Can I pay with my card anywhere?,card_acceptance,supported_cards_and_currencies,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why hasn't a transaction I did to my friend arrived yet?
+",Why hasn't a transaction I did to my friend arrived yet?,transfer_not_received_by_recipient,pending_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+It looks like a payment I've made hasn't made it through yet.
+",It looks like a payment I've made hasn't made it through yet.,pending_card_payment,pending_card_payment,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I change my pin at ATMs?  If so, what ones?
+","Can I change my pin at ATMs?  If so, what ones?",change_pin,atm_support,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+This is the first time I've tried to get my money out of an ATM and it didn't work. Please give me my money
+",This is the first time I've tried to get my money out of an ATM and it didn't work. Please give me my money,declined_cash_withdrawal,declined_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How come I have pending transfers?
+",How come I have pending transfers?,pending_transfer,pending_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I am seeing inside the App a some cash withdrawal that is not mine
+",I am seeing inside the App a some cash withdrawal that is not mine,cash_withdrawal_not_recognised,cash_withdrawal_not_recognised,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Where can I find an ATM?
+",Where can I find an ATM?,atm_support,atm_support,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Waiting for the cash I deposited this morning still
+",Waiting for the cash I deposited this morning still,balance_not_updated_after_cheque_or_cash_deposit,balance_not_updated_after_cheque_or_cash_deposit,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+where did my funds come from?
+",where did my funds come from?,verify_source_of_funds,receiving_money,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Will the card be a Mastercard or a Visa?
+",Will the card be a Mastercard or a Visa?,visa_or_mastercard,visa_or_mastercard,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I just sent money but the person I sent it to doesn't see it. What happened?
+",I just sent money but the person I sent it to doesn't see it. What happened?,transfer_not_received_by_recipient,pending_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why is the exchange rate so high? This should have been a much higher amount of cash for that to apply.
+",Why is the exchange rate so high? This should have been a much higher amount of cash for that to apply.,wrong_exchange_rate_for_cash_withdrawal,wrong_exchange_rate_for_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+why top up is not working even if I got my American Express in Apple Bay?
+",why top up is not working even if I got my American Express in Apple Bay?,apple_pay_or_google_pay,top_up_failed,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can you tell me why my card isn't letting me make purchases online? It's been 2 weeks I've been trying.
+",Can you tell me why my card isn't letting me make purchases online? It's been 2 weeks I've been trying.,reverted_card_payment?,card_not_working,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why are my withdrawals suddenly being declined?
+",Why are my withdrawals suddenly being declined?,declined_cash_withdrawal,declined_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Do you have the best exchange rate?
+",Do you have the best exchange rate?,exchange_rate,exchange_rate,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I can't get google pay to work right.
+",I can't get google pay to work right.,apple_pay_or_google_pay,apple_pay_or_google_pay,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What do I do if I think someone has used my card?
+",What do I do if I think someone has used my card?,compromised_card,compromised_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Hi, I am experiencing problems while trying to top-up with my card. I have never experienced any problems doing this before. Could you please help me?
+","Hi, I am experiencing problems while trying to top-up with my card. I have never experienced any problems doing this before. Could you please help me?",top_up_failed,top_up_failed,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+i have been trying to top up my account with a check but it won't work
+",i have been trying to top up my account with a check but it won't work,top_up_by_cash_or_cheque,top_up_by_cash_or_cheque,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I complete the ID check?
+",How do I complete the ID check?,verify_my_identity,verify_my_identity,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Do I have to use bank approved ATM's
+",Do I have to use bank approved ATM's,atm_support,atm_support,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My new card isn't in my app, how do I get it in there?
+","My new card isn't in my app, how do I get it in there?",card_linking,card_linking,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+When do you charge fees on accounts? I just saw a charge on my statement.
+",When do you charge fees on accounts? I just saw a charge on my statement.,card_payment_fee_charged,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Please tell me how you can stop unauthorized payments from being made on my card since on this bill I see that this has happened. There are transactions that I never made from a place I've never been to.
+",Please tell me how you can stop unauthorized payments from being made on my card since on this bill I see that this has happened. There are transactions that I never made from a place I've never been to.,compromised_card,compromised_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I'd like to have extra cards. Will I have to pay for that?
+",I'd like to have extra cards. Will I have to pay for that?,getting_spare_card,getting_spare_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My credit card seems to have been declined for top up. Why is it not going through? Can you tell me what's going on?
+",My credit card seems to have been declined for top up. Why is it not going through? Can you tell me what's going on?,top_up_failed,top_up_failed,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I didn't make the direct debit payment on my account.
+",I didn't make the direct debit payment on my account.,direct_debit_payment_not_recognised,direct_debit_payment_not_recognised,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I get my money back for a duplicated charge?
+",How do I get my money back for a duplicated charge?,transaction_charged_twice,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why isn't my id verifying?
+",Why isn't my id verifying?,unable_to_verify_identity,unable_to_verify_identity,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How long will my transfer be pending?
+",How long will my transfer be pending?,pending_transfer,pending_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+After a transfer, I see an extra fee.  Why?
+","After a transfer, I see an extra fee.  Why?",transfer_fee_charged,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Somebody made a withdrawal from my account for 500. I have my card so how can this be? Does somebody have a duplicate card or something? Help please.
+",Somebody made a withdrawal from my account for 500. I have my card so how can this be? Does somebody have a duplicate card or something? Help please.,cash_withdrawal_not_recognised,cash_withdrawal_not_recognised,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I did a cash deposit to my account but it doesn't show up
+",I did a cash deposit to my account but it doesn't show up,balance_not_updated_after_cheque_or_cash_deposit,balance_not_updated_after_cheque_or_cash_deposit,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I want to change the wrong exchange rate.
+",I want to change the wrong exchange rate.,card_payment_wrong_exchange_rate,charged_exchange_rate_wrong,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+There is an extra small charge on my card! What do I do?
+",There is an extra small charge on my card! What do I do?,extra_charge_on_statement,extra_charge_on_statement,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I just bought an item and would like to stop payment, is this possible?  The item has not been received yet.
+","I just bought an item and would like to stop payment, is this possible?  The item has not been received yet.",request_refund,reverted_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why won't you accept my payment? I keep trying with this card and it's not working.
+",Why won't you accept my payment? I keep trying with this card and it's not working.,declined_card_payment,declined_card_payment,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My card still hasn't been delivered
+",My card still hasn't been delivered,card_arrival,card_arrival,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I add cash to my account?
+",How do I add cash to my account?,top_up_by_cash_or_cheque,top_up_by_cash_or_cheque,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I don't know where a direct debit payment came from
+",I don't know where a direct debit payment came from,direct_debit_payment_not_recognised,direct_debit_payment_not_recognised,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I am not sure how this will work, but I have not received a product I ordered.  I want a refund, but should I just cancel the payment?
+","I am not sure how this will work, but I have not received a product I ordered.  I want a refund, but should I just cancel the payment?",request_refund,refund_not_received,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What fee will be charged for exchanges?
+",What fee will be charged for exchanges?,exchange_charge,exchange_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How can I find your exchange rates?
+",How can I find your exchange rates?,exchange_rate,exchange_rate,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I am still waiting for a transfer to show
+",I am still waiting for a transfer to show,pending_transfer,pending_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How many active transactions can I make with a disposable card?
+",How many active transactions can I make with a disposable card?,disposable_card_limits,disposable_card_limits,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+There is a cash withdrawl I don't remember.
+",There is a cash withdrawl I don't remember.,cash_withdrawal_not_recognised,cash_withdrawal_not_recognised,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Are there any places that won't take my card?
+",Are there any places that won't take my card?,card_acceptance,country_support,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My account is showing a double charge.
+",My account is showing a double charge.,transaction_charged_twice,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Since when were there charges for taking out cash from my account? It's always been free for me to do this before.  How much are the charges going to be?
+",Since when were there charges for taking out cash from my account? It's always been free for me to do this before.  How much are the charges going to be?,cash_withdrawal_charge,cash_withdrawal_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+It seems that the rate I got is incorrect.
+",It seems that the rate I got is incorrect.,card_payment_wrong_exchange_rate,charged_exchange_rate_wrong,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I know what my PIN is?
+",How do I know what my PIN is?,get_physical_card,passcode_forgotten,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How much would I be charged for a transfer?
+",How much would I be charged for a transfer?,top_up_by_bank_transfer_charge,top_up_by_bank_transfer_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I track my card while it is in the process of delivery?
+",Can I track my card while it is in the process of delivery?,card_arrival,card_delivery_estimate,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I get my card into the app?
+",How do I get my card into the app?,card_linking,card_linking,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+how do I speed up identity verification?
+",how do I speed up identity verification?,why_verify_identity,verify_my_identity,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I believe you charged me too much to exchange my money
+",I believe you charged me too much to exchange my money,card_payment_wrong_exchange_rate,exchange_charge,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I need to delete my account, please.
+","I need to delete my account, please.",terminate_account,terminate_account,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why isn't my card working? I was pumped to use my new card but it keeps getting declined. Help please.
+",Why isn't my card working? I was pumped to use my new card but it keeps getting declined. Help please.,declined_card_payment,activate_my_card,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My card arrived but I don't know how to get my PIN.
+",My card arrived but I don't know how to get my PIN.,get_physical_card,activate_my_card,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why am I unable to transfer money when I was able to before?
+",Why am I unable to transfer money when I was able to before?,beneficiary_not_allowed,declined_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can you send me a new card and block my current one. I'm in Spain and my wallet was stolen.
+",Can you send me a new card and block my current one. I'm in Spain and my wallet was stolen.,lost_or_stolen_card,lost_or_stolen_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do you find the exchange rate?
+",How do you find the exchange rate?,exchange_rate,exchange_rate,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Someone may have made an error in figuring out the rate of exchange.  I should have received more cash than I did on my most recent withdrawal.
+",Someone may have made an error in figuring out the rate of exchange.  I should have received more cash than I did on my most recent withdrawal.,wrong_exchange_rate_for_cash_withdrawal,wrong_exchange_rate_for_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+There is a direct debit transaction that I did not authorize
+",There is a direct debit transaction that I did not authorize,direct_debit_payment_not_recognised,direct_debit_payment_not_recognised,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+after i got married i need to change my name
+",after i got married i need to change my name,edit_personal_details,edit_personal_details,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How can I receive my salary in another currency?
+",How can I receive my salary in another currency?,receiving_money,receiving_money,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What businesses can I use this card with?
+",What businesses can I use this card with?,card_acceptance,supported_cards_and_currencies,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I cannot find my refund on my statement.
+",I cannot find my refund on my statement.,Refund_not_showing_up,refund_not_received,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I go about getting hold of a virtual card?
+",How do I go about getting hold of a virtual card?,getting_virtual_card,getting_virtual_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why didn't I receive the right amount of cash at the ATM?
+",Why didn't I receive the right amount of cash at the ATM?,wrong_amount_of_cash_received,wrong_amount_of_cash_received,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I was declined when I tried to take out cash!
+",I was declined when I tried to take out cash!,declined_cash_withdrawal,declined_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+If I don't have much money in the account can I auto top-up?
+",If I don't have much money in the account can I auto top-up?,automatic_top_up,automatic_top_up,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Transfers can take up to one day to process before departing for the beneficiary accounts. Please confirm that you've entered your account details correctly. SEPA transfers can take up to two working days, while SWIFT transfers can take up to five working days.
+","Transfers can take up to one day to process before departing for the beneficiary accounts. Please confirm that you've entered your account details correctly. SEPA transfers can take up to two working days, while SWIFT transfers can take up to five working days.",pending_transfer,pending_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I don't want to buy this car anymore, can I cancel the transaction and get a quick refund back?
+","I don't want to buy this car anymore, can I cancel the transaction and get a quick refund back?",request_refund,reverted_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+After I got my cash, I found out my exchange rate was wrong.
+","After I got my cash, I found out my exchange rate was wrong.",wrong_exchange_rate_for_cash_withdrawal,wrong_exchange_rate_for_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can you explain why I was charged extra when I used the card?
+",Can you explain why I was charged extra when I used the card?,card_payment_fee_charged,card_payment_fee_charged,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I tried to transfer funds to a beneficiary and was denied. Can you tell me why?
+",I tried to transfer funds to a beneficiary and was denied. Can you tell me why?,beneficiary_not_allowed,beneficiary_not_allowed,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why am I getting declines when trying to make a purchase online?
+",Why am I getting declines when trying to make a purchase online?,declined_transfer,declined_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I asked for cash but I did not receive all the funds
+",I asked for cash but I did not receive all the funds,wrong_amount_of_cash_received,wrong_amount_of_cash_received,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Given a choice, I'd rather have Mastercard.
+","Given a choice, I'd rather have Mastercard.",visa_or_mastercard,visa_or_mastercard,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I placed a cash deposit in my account but I can't see it yet.
+",I placed a cash deposit in my account but I can't see it yet.,balance_not_updated_after_cheque_or_cash_deposit,balance_not_updated_after_cheque_or_cash_deposit,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is it simple to transfer money using my credit card?
+",Is it simple to transfer money using my credit card?,topping_up_by_card,top_up_by_card_charge,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What if there is an error on the exchange rate?
+",What if there is an error on the exchange rate?,card_payment_wrong_exchange_rate,charged_exchange_rate_wrong,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Please tell me about disposable cards.
+",Please tell me about disposable cards.,get_disposable_virtual_card,get_disposable_virtual_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My salary is deposited in GBP. Do I need to choose the currency?
+",My salary is deposited in GBP. Do I need to choose the currency?,receiving_money,fiat_currency_support,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I didn't receive my money earlier and it says the transaction is still in progress. Can you fix it?
+",I didn't receive my money earlier and it says the transaction is still in progress. Can you fix it?,pending_cash_withdrawal,pending_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What do you use to figure out the exchange rate for the card?
+",What do you use to figure out the exchange rate for the card?,exchange_rate,exchange_rate,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why should I verify the top-up?
+",Why should I verify the top-up?,verify_top_up,why_verify_identity,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+It looks like my card payment was sent back.
+",It looks like my card payment was sent back.,reverted_card_payment?,reverted_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What is the expected delivery date for my card?
+",What is the expected delivery date for my card?,card_arrival,card_delivery_estimate,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I have a card even if I am not living in the UK?
+",Can I have a card even if I am not living in the UK?,country_support,country_support,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I know there's money in my account, why did my account decline me?
+","I know there's money in my account, why did my account decline me?",declined_card_payment,declined_card_payment,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How can I verify my top-up card?
+",How can I verify my top-up card?,verify_top_up,INVALID_LABEL,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is the exchange rate the same on weekends as the weekdays?
+",Is the exchange rate the same on weekends as the weekdays?,exchange_rate,exchange_rate,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is there a problem with the payment that I see is still pending?
+",Is there a problem with the payment that I see is still pending?,pending_card_payment,pending_card_payment,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why am I being asked to verify my identity?
+",Why am I being asked to verify my identity?,why_verify_identity,why_verify_identity,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+You operate in which countries?
+",You operate in which countries?,country_support,country_support,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I need help finding the verification code on the top up card.
+",I need help finding the verification code on the top up card.,verify_top_up,top_up_by_card_charge,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I attempted to get cash in the ATM but it was not authorized
+",I attempted to get cash in the ATM but it was not authorized,declined_cash_withdrawal,declined_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+There is a pending payment on my account that is very strange. I don't remember making this and it won't go away. Can you help me figure this out?
+",There is a pending payment on my account that is very strange. I don't remember making this and it won't go away. Can you help me figure this out?,extra_charge_on_statement,pending_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What do the disposable cards do?
+",What do the disposable cards do?,get_disposable_virtual_card,get_disposable_virtual_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How does identity check work?
+",How does identity check work?,why_verify_identity,why_verify_identity,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I really need to top-up my card today urgently but my card keeps getting declined!! Can you please resolve this problem or let me know if you have any alternatives
+",I really need to top-up my card today urgently but my card keeps getting declined!! Can you please resolve this problem or let me know if you have any alternatives,top_up_failed,top_up_failed,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How can I dispute a direct debit transaction?
+",How can I dispute a direct debit transaction?,direct_debit_payment_not_recognised,direct_debit_payment_not_recognised,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How can my account have money transferred into it?
+",How can my account have money transferred into it?,transfer_into_account,receiving_money,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My card is almost expired.  How fast will I get a new one and what is the cost?
+",My card is almost expired.  How fast will I get a new one and what is the cost?,card_about_to_expire,card_about_to_expire,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Hi, I am currently in the process of buying a flat and I am waiting for the mortgage to go through but it keeps showing up as an error.  Do you know what could be causing this and can you help me get the money over.
+","Hi, I am currently in the process of buying a flat and I am waiting for the mortgage to go through but it keeps showing up as an error.  Do you know what could be causing this and can you help me get the money over.",failed_transfer,failed_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I query a payment on my card? It looks like I have paid for the same thing twice.
+",How do I query a payment on my card? It looks like I have paid for the same thing twice.,transaction_charged_twice,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I need to cancel my recent transfer as soon as possible. I made an error there. Please help before it goes through.
+",I need to cancel my recent transfer as soon as possible. I made an error there. Please help before it goes through.,cancel_transfer,cancel_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is my account able to be topped up by my friends?
+",Is my account able to be topped up by my friends?,topping_up_by_card,receiving_money,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What is the youngest age for an account?
+",What is the youngest age for an account?,age_limit,age_limit,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I tried pulling out money at the ATM and it gave me an incorrect amount back.
+",I tried pulling out money at the ATM and it gave me an incorrect amount back.,wrong_amount_of_cash_received,wrong_amount_of_cash_received,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How to receive virtual card?
+",How to receive virtual card?,getting_virtual_card,getting_virtual_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I looked at my statement, and there is a charge for 1£ that I don't recognize.  Why is it on there?
+","I looked at my statement, and there is a charge for 1£ that I don't recognize.  Why is it on there?",extra_charge_on_statement,extra_charge_on_statement,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I get some help activating my new card?
+",Can I get some help activating my new card?,activate_my_card,activate_my_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What are the steps for the identity checks?
+",What are the steps for the identity checks?,verify_my_identity,verify_my_identity,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can this app exchange American and English currency?
+",Can this app exchange American and English currency?,exchange_via_app,exchange_via_app,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I'm at the ATM right now and it only allowed me to withdraw 10 pounds instead of my requested 30. What's going on? How can I fix this?
+",I'm at the ATM right now and it only allowed me to withdraw 10 pounds instead of my requested 30. What's going on? How can I fix this?,wrong_amount_of_cash_received,wrong_amount_of_cash_received,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I receive money in a different countries money?
+",Can I receive money in a different countries money?,receiving_money,fiat_currency_support,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I was not able to receive the correct amount of cash.
+",I was not able to receive the correct amount of cash.,wrong_amount_of_cash_received,wrong_amount_of_cash_received,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I input a new address?
+",How do I input a new address?,edit_personal_details,edit_personal_details,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My card is not working at stores.
+",My card is not working at stores.,declined_card_payment,card_not_working,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How can I switch on my new card?
+",How can I switch on my new card?,activate_my_card,activate_my_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I set it up to add money every few days automatically while I am traveling?
+",Can I set it up to add money every few days automatically while I am traveling?,automatic_top_up,automatic_top_up,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I'm not sure why my card didn't work
+",I'm not sure why my card didn't work,declined_card_payment,card_not_working,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+When will my transfer move from pending to confirmed?
+",When will my transfer move from pending to confirmed?,pending_transfer,pending_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I'm interested in getting a virtual card.  How do I get one?
+",I'm interested in getting a virtual card.  How do I get one?,getting_virtual_card,getting_virtual_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I add to my account using a cheque?
+",Can I add to my account using a cheque?,top_up_by_cash_or_cheque,top_up_by_cash_or_cheque,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I have kids and I'm curious at what age could they start to use your service.
+",I have kids and I'm curious at what age could they start to use your service.,age_limit,age_limit,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I made a cash withdrawal earlier and it's showing as pending.  What does that mean?
+",I made a cash withdrawal earlier and it's showing as pending.  What does that mean?,pending_cash_withdrawal,pending_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+why do I have to show my ID
+",why do I have to show my ID,verify_my_identity,why_verify_identity,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+what is the exchange rate when i get cash
+",what is the exchange rate when i get cash,wrong_exchange_rate_for_cash_withdrawal,exchange_rate,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I checked my account and see that funds were deducted from a seller I didn't approve of. Can you help me understand?
+",I checked my account and see that funds were deducted from a seller I didn't approve of. Can you help me understand?,direct_debit_payment_not_recognised,direct_debit_payment_not_recognised,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+It seems like I have been waiting forever for this international transfer. Why is it taking so long? C'mon, it's 2018, things happen at a click of a button. All of the account information is correct, so how long will this take?
+","It seems like I have been waiting forever for this international transfer. Why is it taking so long? C'mon, it's 2018, things happen at a click of a button. All of the account information is correct, so how long will this take?",pending_transfer,pending_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What is the status of my top up?
+",What is the status of my top up?,top_up_reverted,INVALID_LABEL,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can anyone else top-up for me?
+",Can anyone else top-up for me?,topping_up_by_card,receiving_money,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I receive a disposable virtual card?
+",How do I receive a disposable virtual card?,get_disposable_virtual_card,get_disposable_virtual_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I have transfered to my account before but it is being declined now?
+",I have transfered to my account before but it is being declined now?,declined_transfer,declined_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is it possible to have a second card?
+",Is it possible to have a second card?,getting_spare_card,getting_spare_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My card was used without my permission, what do I do?
+","My card was used without my permission, what do I do?",compromised_card,compromised_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What is the $1 transaction on my account?
+",What is the $1 transaction on my account?,extra_charge_on_statement,extra_charge_on_statement,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I wish to remove my account.
+",I wish to remove my account.,terminate_account,close_account,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Let me know when you charge extra for payments please. I just checked the app earlier when I saw that there was an additional fee on one of the payments that I wasn't warned about before.
+",Let me know when you charge extra for payments please. I just checked the app earlier when I saw that there was an additional fee on one of the payments that I wasn't warned about before.,card_payment_fee_charged,card_payment_fee_charged,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What cards do you offer?
+",What cards do you offer?,visa_or_mastercard,supported_cards_and_currencies,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is there a reason why my virtual card won't work?
+",Is there a reason why my virtual card won't work?,virtual_card_not_working,card_not_working,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I get a new card as your machine swallowed mine!
+",How do I get a new card as your machine swallowed mine!,card_swallowed,card_swallowed,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I use it outside of Europe?
+",Can I use it outside of Europe?,country_support,country_support,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can you tell me why I haven't received my new card yet?
+",Can you tell me why I haven't received my new card yet?,card_arrival,card_arrival,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I just realised I made the wrong payment yesterday. Can you please change it to the right account? It's my rent payment and really really needs to be in the right account by tomorrow
+",I just realised I made the wrong payment yesterday. Can you please change it to the right account? It's my rent payment and really really needs to be in the right account by tomorrow,cancel_transfer,cancel_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is the verification number on the top up card
+",Is the verification number on the top up card,verify_top_up,verify_my_identity,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Where can the cards be delivered?
+",Where can the cards be delivered?,order_physical_card,country_support,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I am not supposed to be charged a cash withdrawal fee, but I was.
+","I am not supposed to be charged a cash withdrawal fee, but I was.",cash_withdrawal_charge,cash_withdrawal_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+There is unusual activity on my account and I believe someone took my card.
+",There is unusual activity on my account and I believe someone took my card.,compromised_card,lost_or_stolen_card,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I get this damn virtual card to work?
+",How do I get this damn virtual card to work?,virtual_card_not_working,card_not_working,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why was the price higher when I paid with my card?
+",Why was the price higher when I paid with my card?,card_payment_fee_charged,card_payment_fee_charged,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+In which countries can I get a card?
+",In which countries can I get a card?,country_support,country_support,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I am quite aggravated that I ordered online almost a month ago and I never got my package and I paid for it. I would really appreciate it if I could get a full refund back now.
+",I am quite aggravated that I ordered online almost a month ago and I never got my package and I paid for it. I would really appreciate it if I could get a full refund back now.,request_refund,refund_not_received,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Hello, I have a question concerning an unfamiliar fee that I notice on my account. I see that you guys charge for ATM withdrawal. Never notice this fee until now. Can you please explain?
+","Hello, I have a question concerning an unfamiliar fee that I notice on my account. I see that you guys charge for ATM withdrawal. Never notice this fee until now. Can you please explain?",cash_withdrawal_charge,cash_withdrawal_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I wanted to withdraw $100 from the ATM but I only got $20
+",I wanted to withdraw $100 from the ATM but I only got $20,wrong_amount_of_cash_received,wrong_amount_of_cash_received,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+are there any exchange fees
+",are there any exchange fees,exchange_charge,exchange_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+is there a frequent currency discount?
+",is there a frequent currency discount?,exchange_charge,exchange_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My transfers keep on getting declined. My card was working fine up until now, however it has suddenly stopped working. Why is this?
+","My transfers keep on getting declined. My card was working fine up until now, however it has suddenly stopped working. Why is this?",declined_transfer,declined_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+where to i get my funds from?
+",where to i get my funds from?,verify_source_of_funds,receiving_money,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why is there extra cash in my account?
+",Why is there extra cash in my account?,cash_withdrawal_not_recognised,wrong_amount_of_cash_received,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+please cancel the transaction
+",please cancel the transaction,cancel_transfer,cancel_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What is the procedure for depositing a virtual card
+",What is the procedure for depositing a virtual card,get_disposable_virtual_card,getting_virtual_card,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How long do I need to wait to see an update after I make a bank transfer?
+",How long do I need to wait to see an update after I make a bank transfer?,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I want a backup second card. Is this possible?
+",I want a backup second card. Is this possible?,getting_spare_card,getting_spare_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I think somebody made an unauthorized copy of my card.  My account has a cash withdrawal for 500£ that I did not make.  Please help.
+",I think somebody made an unauthorized copy of my card.  My account has a cash withdrawal for 500£ that I did not make.  Please help.,cash_withdrawal_not_recognised,cash_withdrawal_not_recognised,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+When I'm traveling is it possible to add money automatically at certain time points?
+",When I'm traveling is it possible to add money automatically at certain time points?,automatic_top_up,automatic_top_up,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Where can I find a Mastercard ATM?
+",Where can I find a Mastercard ATM?,atm_support,atm_support,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I received duplicate charges.
+",I received duplicate charges.,transaction_charged_twice,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can you tell me how to tell where my funds come from?
+",Can you tell me how to tell where my funds come from?,verify_source_of_funds,receiving_money,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What do I do to link my new card?
+",What do I do to link my new card?,card_linking,card_linking,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I'm in China and need a new card. Please help.
+",I'm in China and need a new card. Please help.,card_about_to_expire,getting_spare_card,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I transfer using SWIFT?
+",Can I transfer using SWIFT?,top_up_by_bank_transfer_charge,topping_up_by_bank_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I have received my statement but I do not see my refund, why is that?
+","I have received my statement but I do not see my refund, why is that?",Refund_not_showing_up,refund_not_received,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How long before I can see that my cash withdrawal has taken place?
+",How long before I can see that my cash withdrawal has taken place?,pending_cash_withdrawal,pending_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+A transfer was not allowed to an account.
+",A transfer was not allowed to an account.,beneficiary_not_allowed,beneficiary_not_allowed,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How can I check if I have received a refund if it is not yet on my statement?
+",How can I check if I have received a refund if it is not yet on my statement?,Refund_not_showing_up,refund_not_received,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I use this app to exchange currencies?
+",Can I use this app to exchange currencies?,exchange_via_app,exchange_via_app,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I have lost my card! What is my next step?
+",I have lost my card! What is my next step?,lost_or_stolen_card,lost_or_stolen_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What cash machines will let me change my PIN?
+",What cash machines will let me change my PIN?,change_pin,atm_support,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I replace a stolen card?
+",How do I replace a stolen card?,lost_or_stolen_card,lost_or_stolen_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I tried to do a transfer but I got a message that it was declined.
+",I tried to do a transfer but I got a message that it was declined.,declined_transfer,declined_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+is apple pay a top up service?
+",is apple pay a top up service?,apple_pay_or_google_pay,apple_pay_or_google_pay,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+There is the same transaction showing more than once.
+",There is the same transaction showing more than once.,transaction_charged_twice,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How can I unblock my PIN?
+",How can I unblock my PIN?,pin_blocked,pin_blocked,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I really need some help to understand why my transfer keeps failing. I'm trying to send money to a friend. Please help.
+",I really need some help to understand why my transfer keeps failing. I'm trying to send money to a friend. Please help.,failed_transfer,failed_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why was I charged a fee for withdrawing money?
+",Why was I charged a fee for withdrawing money?,cash_withdrawal_charge,cash_withdrawal_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is there a way to lookup where funds came from?
+",Is there a way to lookup where funds came from?,verify_source_of_funds,receiving_money,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can turn my money into another currency?
+",Can turn my money into another currency?,exchange_via_app,exchange_via_app,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I get an actual card
+",Can I get an actual card,order_physical_card,get_physical_card,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What should I do if my physical card isn't working?
+",What should I do if my physical card isn't working?,card_not_working,card_not_working,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I'd like to apply for a Visa Card.
+",I'd like to apply for a Visa Card.,visa_or_mastercard,order_physical_card,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I just found out from the seller that my money didn't go through. I checked my account and it was deducted at first but now it's back in my account. Can you  please fix this for me quickly?
+",I just found out from the seller that my money didn't go through. I checked my account and it was deducted at first but now it's back in my account. Can you  please fix this for me quickly?,reverted_card_payment?,reverted_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why is the exchange rate different from what I expected?
+",Why is the exchange rate different from what I expected?,card_payment_wrong_exchange_rate,exchange_rate,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My phone got stolen, how can I use the app?
+","My phone got stolen, how can I use the app?",lost_or_stolen_phone,lost_or_stolen_phone,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I would like to track the card you sent to me.
+",I would like to track the card you sent to me.,card_arrival,card_delivery_estimate,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How can I reset the passcode if I need to do that?
+",How can I reset the passcode if I need to do that?,passcode_forgotten,passcode_forgotten,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What are ways to test why my card might not be working?
+",What are ways to test why my card might not be working?,card_not_working,card_not_working,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What is the fee for topping up a US card?
+",What is the fee for topping up a US card?,top_up_by_card_charge,top_up_by_card_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Do you have a children account available?
+",Do you have a children account available?,age_limit,age_limit,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How much does top up fees cost?
+",How much does top up fees cost?,top_up_by_card_charge,top_up_by_card_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I see a strange payment in my account.
+",I see a strange payment in my account.,card_payment_not_recognised,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Hi there, I've tried to make a transfer 5 different times and its not working. Is your system down or something?
+","Hi there, I've tried to make a transfer 5 different times and its not working. Is your system down or something?",failed_transfer,failed_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is there a reason my new card hasn't arrived yet?
+",Is there a reason my new card hasn't arrived yet?,card_arrival,card_arrival,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+The ATM didn't give me what I asked for but my balance says it did
+",The ATM didn't give me what I asked for but my balance says it did,wrong_amount_of_cash_received,wrong_amount_of_cash_received,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Help! My account doesn't show any funds. Is transferring funds an option I can use?
+",Help! My account doesn't show any funds. Is transferring funds an option I can use?,transfer_into_account,topping_up_by_bank_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Do you have any options to top up with a cheque on my account?
+",Do you have any options to top up with a cheque on my account?,top_up_by_cash_or_cheque,top_up_by_cash_or_cheque,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My app says that I'm not verified.
+",My app says that I'm not verified.,unable_to_verify_identity,unable_to_verify_identity,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why was my top up cancelled?
+",Why was my top up cancelled?,top_up_reverted,top_up_reverted,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What ATMs can I use this card at?
+",What ATMs can I use this card at?,atm_support,atm_support,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+i asked for 100 only got 80
+",i asked for 100 only got 80,wrong_amount_of_cash_received,wrong_amount_of_cash_received,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+beneficiary transfer problems?
+",beneficiary transfer problems?,beneficiary_not_allowed,beneficiary_not_allowed,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My account says there are pending funds right now from withdrawing from an ATM, but my card was declined and I never took out any money. When will that money be deposited back into my account?
+","My account says there are pending funds right now from withdrawing from an ATM, but my card was declined and I never took out any money. When will that money be deposited back into my account?",pending_cash_withdrawal,pending_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why is my money not in my account. I have already sent it out.
+",Why is my money not in my account. I have already sent it out.,balance_not_updated_after_cheque_or_cash_deposit,pending_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+The cast deposit from a week ago still is not in my account. Why?
+",The cast deposit from a week ago still is not in my account. Why?,balance_not_updated_after_cheque_or_cash_deposit,balance_not_updated_after_cheque_or_cash_deposit,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I noticed a different charge while I was taking my money out.
+",I noticed a different charge while I was taking my money out.,cash_withdrawal_charge,cash_withdrawal_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My payment shows that it is pending will I be charged more money?
+",My payment shows that it is pending will I be charged more money?,pending_transfer,pending_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I am unsuccessfully trying to make a transfer can you help?
+",I am unsuccessfully trying to make a transfer can you help?,failed_transfer,failed_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How long does it actually take for a card payment to go through? There's one stuck since a couple of days already that doesn't seem to move
+",How long does it actually take for a card payment to go through? There's one stuck since a couple of days already that doesn't seem to move,pending_card_payment,pending_card_payment,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I see I was charged extra when I used the card.  I am not sure why, please tell me why.
+","I see I was charged extra when I used the card.  I am not sure why, please tell me why.",card_payment_fee_charged,card_payment_fee_charged,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I make my PIN work again?
+",How do I make my PIN work again?,pin_blocked,pin_blocked,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why would my top up be reverted?
+",Why would my top up be reverted?,top_up_reverted,top_up_reverted,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Where can I see where my funds came from?
+",Where can I see where my funds came from?,verify_source_of_funds,receiving_money,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is it possible to do auto top up?
+",Is it possible to do auto top up?,automatic_top_up,automatic_top_up,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can you explain why my payment was charged a fee?
+",Can you explain why my payment was charged a fee?,card_payment_fee_charged,card_payment_fee_charged,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Purchases I did not make are appearing in my bank statement?
+",Purchases I did not make are appearing in my bank statement?,direct_debit_payment_not_recognised,direct_debit_payment_not_recognised,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How long does it take to make an urgent transfer from China?
+",How long does it take to make an urgent transfer from China?,transfer_timing,pending_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My card hasn't shown up yet.
+",My card hasn't shown up yet.,card_arrival,card_arrival,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What do I need to do to get my new card which I have requested 2 weeks ago?
+",What do I need to do to get my new card which I have requested 2 weeks ago?,card_arrival,card_arrival,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+It's been a week since I ordered my card and it's not here. Please help?
+",It's been a week since I ordered my card and it's not here. Please help?,card_arrival,card_arrival,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I made a transfer a couple hours ago but my balance has not been updated. Why is this? Shouldnt this be instant?
+",I made a transfer a couple hours ago but my balance has not been updated. Why is this? Shouldnt this be instant?,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Apparently, I went out today to use my new card and was informed my payment was decline. This is really embarrassing, what happen?
+","Apparently, I went out today to use my new card and was informed my payment was decline. This is really embarrassing, what happen?",declined_card_payment,declined_card_payment,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Using Google Pay, can I top up?
+","Using Google Pay, can I top up?",apple_pay_or_google_pay,apple_pay_or_google_pay,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is it possible for a transaction to be cancelled?
+",Is it possible for a transaction to be cancelled?,cancel_transfer,cancel_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+would a visa or mastercard be more suited to me?
+",would a visa or mastercard be more suited to me?,visa_or_mastercard,visa_or_mastercard,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I get a card if I live in the US?
+",How do I get a card if I live in the US?,country_support,country_support,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I received a returned payment that I made.
+",I received a returned payment that I made.,reverted_card_payment?,reverted_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My account seems a bit off and getting weird charges.
+",My account seems a bit off and getting weird charges.,transaction_charged_twice,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why is there a fee added to my statement?
+",Why is there a fee added to my statement?,extra_charge_on_statement,extra_charge_on_statement,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I punched in the wrong pin too many times and I'm locked out.
+",I punched in the wrong pin too many times and I'm locked out.,pin_blocked,pin_blocked,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why hasn't the app verified my identity?
+",Why hasn't the app verified my identity?,unable_to_verify_identity,unable_to_verify_identity,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What are you exchange rates?
+",What are you exchange rates?,exchange_rate,exchange_rate,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is ordering a new card from China available?
+",Is ordering a new card from China available?,card_about_to_expire,country_support,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How can I exchange currencies with this app?
+",How can I exchange currencies with this app?,exchange_via_app,exchange_via_app,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I get paid for this in another currency?
+",Can I get paid for this in another currency?,receiving_money,fiat_currency_support,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I am not able to purchase anything online! I have been using my card on multiple sites over a period of two weeks and none of the payments have gone through. Why is this happening?
+",I am not able to purchase anything online! I have been using my card on multiple sites over a period of two weeks and none of the payments have gone through. Why is this happening?,reverted_card_payment?,declined_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I use a cheque to top up?
+",How do I use a cheque to top up?,top_up_by_cash_or_cheque,top_up_by_cash_or_cheque,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I tried to add a topup to my account but the money isn't there, anymore. Did I do something wrong?
+","I tried to add a topup to my account but the money isn't there, anymore. Did I do something wrong?",top_up_reverted,top_up_reverted,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I transfer cash my into my account?
+",How do I transfer cash my into my account?,transfer_into_account,top_up_by_cash_or_cheque,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Looks like my card payment was duplicated after all. I went to pay at the store earlier, got declined once,second time it works. App still stays pending for one of the payments. Can you please remove one of them as it's wrong and was declined?
+","Looks like my card payment was duplicated after all. I went to pay at the store earlier, got declined once,second time it works. App still stays pending for one of the payments. Can you please remove one of them as it's wrong and was declined?",transaction_charged_twice,pending_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Are top-ups allowed using Apple Pay?
+",Are top-ups allowed using Apple Pay?,apple_pay_or_google_pay,apple_pay_or_google_pay,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What do I do if my top-up has not gone through?
+",What do I do if my top-up has not gone through?,pending_top_up,top_up_failed,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I am having trouble activating my card.
+",I am having trouble activating my card.,activate_my_card,activate_my_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+It's requiring me to verify my identity?
+",It's requiring me to verify my identity?,why_verify_identity,why_verify_identity,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+If I can't choose my card type will I be able to use it everywhere?
+",If I can't choose my card type will I be able to use it everywhere?,visa_or_mastercard,supported_cards_and_currencies,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I get a refund on an item?
+",Can I get a refund on an item?,request_refund,refund_not_received,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I saw money was taken out of my account by a seller a while back. I do not recognize the seller, but I'm pretty certain I didn't make that payment. Can you track who the seller is?
+","I saw money was taken out of my account by a seller a while back. I do not recognize the seller, but I'm pretty certain I didn't make that payment. Can you track who the seller is?",direct_debit_payment_not_recognised,direct_debit_payment_not_recognised,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why is there a random payment in my statement?
+",Why is there a random payment in my statement?,card_payment_not_recognised,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What do I do to verify my source of funds?
+",What do I do to verify my source of funds?,verify_source_of_funds,verify_my_identity,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Do you charge for sending out more cards?
+",Do you charge for sending out more cards?,getting_spare_card,getting_spare_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Hey there, I just went through my most recent credit card payments and I notice the same charge for a restaurant was processed twice. There was only one meal at this place, so I would like one of the charges to be reversed and my money to be put back in the account.
+","Hey there, I just went through my most recent credit card payments and I notice the same charge for a restaurant was processed twice. There was only one meal at this place, so I would like one of the charges to be reversed and my money to be put back in the account.",transaction_charged_twice,reverted_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is there something wrong with my ATM Card?  Tried using it earlier and it did not work.
+",Is there something wrong with my ATM Card?  Tried using it earlier and it did not work.,declined_cash_withdrawal,card_not_working,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+The ATM keeps declining my Transaction . I tried two different ATMs already Would you please check if everything is okay with my account?
+",The ATM keeps declining my Transaction . I tried two different ATMs already Would you please check if everything is okay with my account?,declined_cash_withdrawal,declined_cash_withdrawal,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I don't think my top up worked
+",I don't think my top up worked,top_up_failed,top_up_failed,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Who do I make a check out to if I want to top off my account?
+",Who do I make a check out to if I want to top off my account?,top_up_by_cash_or_cheque,top_up_by_cash_or_cheque,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How long does it take for my physical card to be delivered.
+",How long does it take for my physical card to be delivered.,card_delivery_estimate,card_delivery_estimate,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I possibly change my currency to another?
+",Can I possibly change my currency to another?,exchange_via_app,exchange_via_app,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can this card be used at all ATMs?
+",Can this card be used at all ATMs?,atm_support,atm_support,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why has transferring money resulted in a charge?
+",Why has transferring money resulted in a charge?,transfer_fee_charged,top_up_by_bank_transfer_charge,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I do not recognize the card payment.
+",I do not recognize the card payment.,card_payment_not_recognised,direct_debit_payment_not_recognised,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What are the steps needed to top up with Apple Pay?
+",What are the steps needed to top up with Apple Pay?,apple_pay_or_google_pay,apple_pay_or_google_pay,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I get an update on my replacement card?
+",Can I get an update on my replacement card?,card_arrival,card_arrival,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My new card hasn't came in.
+",My new card hasn't came in.,card_arrival,card_arrival,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+If I want to can I set up a new PIN?
+",If I want to can I set up a new PIN?,change_pin,edit_personal_details,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I use my card to withdraw from my account?
+",Can I use my card to withdraw from my account?,atm_support,atm_support,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Your service is bad.  Close my account.
+",Your service is bad.  Close my account.,terminate_account,close_account,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What is the fee for a foreign currency exchange?
+",What is the fee for a foreign currency exchange?,exchange_charge,exchange_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I live in the EU - can I get a card?
+",I live in the EU - can I get a card?,country_support,country_support,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My passcode was denied.
+",My passcode was denied.,passcode_forgotten,pin_blocked,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My top up hasn't gone through yet, why?
+","My top up hasn't gone through yet, why?",pending_top_up,top_up_failed,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+There must have been a mistake, why was I charged an extra pound?
+","There must have been a mistake, why was I charged an extra pound?",extra_charge_on_statement,extra_charge_on_statement,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+In what increments can I top-up my card?
+",In what increments can I top-up my card?,automatic_top_up,top_up_limits,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How long does it take to recieve my new card?
+",How long does it take to recieve my new card?,card_arrival,card_delivery_estimate,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I tried to buy something online yesterday but it kept saying declined. Tried another time today but same thing happened. What's Broken?
+",I tried to buy something online yesterday but it kept saying declined. Tried another time today but same thing happened. What's Broken?,declined_transfer,declined_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why do you need to perform identity verification?
+",Why do you need to perform identity verification?,why_verify_identity,why_verify_identity,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Are there fees for adding money with an International card?
+",Are there fees for adding money with an International card?,top_up_by_card_charge,top_up_by_card_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+After I transferred money the balance remained the same.
+",After I transferred money the balance remained the same.,balance_not_updated_after_bank_transfer,balance_not_updated_after_bank_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I would like to get help from someone in your customer service department with assisting me with activating my card.
+",I would like to get help from someone in your customer service department with assisting me with activating my card.,activate_my_card,activate_my_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I've got a problem - I bought something with my card one or two weeks ago, but now exact same amount of the purchase is showing up in my account. I like more money in my account, but this is too good to be true. Can you tell me what's happening?
+","I've got a problem - I bought something with my card one or two weeks ago, but now exact same amount of the purchase is showing up in my account. I like more money in my account, but this is too good to be true. Can you tell me what's happening?",reverted_card_payment?,reverted_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+When can I expect my new card to get here?
+",When can I expect my new card to get here?,card_delivery_estimate,card_delivery_estimate,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I would like to top up my account automatically. How do I do that?
+",I would like to top up my account automatically. How do I do that?,automatic_top_up,automatic_top_up,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How long does it take for the transfer to go through?
+",How long does it take for the transfer to go through?,transfer_not_received_by_recipient,pending_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I've been charged an extra £1 and I don't know why
+",I've been charged an extra £1 and I don't know why,extra_charge_on_statement,extra_charge_on_statement,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My statement shows different transaction times.
+",My statement shows different transaction times.,transaction_charged_twice,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+The ATM is messed up. It gave me less than I wanted.
+",The ATM is messed up. It gave me less than I wanted.,wrong_amount_of_cash_received,wrong_amount_of_cash_received,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+When will I have access to my pin number?
+",When will I have access to my pin number?,get_physical_card,card_arrival,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I need to urgently transfer something from China. How long will it approximately take?
+",I need to urgently transfer something from China. How long will it approximately take?,transfer_timing,pending_transfer,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+My account balance has not updated since I deposited a cheque recently.
+",My account balance has not updated since I deposited a cheque recently.,balance_not_updated_after_cheque_or_cash_deposit,balance_not_updated_after_cheque_or_cash_deposit,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I want to top up my account by a bank transfer, but will I be charged?
+","I want to top up my account by a bank transfer, but will I be charged?",top_up_by_bank_transfer_charge,top_up_by_bank_transfer_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Hi, Last week I have contacted the seller for a refund as directed by you, but i have not received the money yet. Please look into this issue with seller and help me in getting the refund.
+","Hi, Last week I have contacted the seller for a refund as directed by you, but i have not received the money yet. Please look into this issue with seller and help me in getting the refund.",Refund_not_showing_up,refund_not_received,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I didn't make this payment and it's on my app
+",I didn't make this payment and it's on my app,card_payment_not_recognised,direct_debit_payment_not_recognised,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I left my phone somewhere and can't use the app.
+",I left my phone somewhere and can't use the app.,lost_or_stolen_phone,lost_or_stolen_phone,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I didn't set up a direct debit payment on my account.
+",I didn't set up a direct debit payment on my account.,direct_debit_payment_not_recognised,direct_debit_payment_not_recognised,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What countries can I use the card in?
+",What countries can I use the card in?,country_support,country_support,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I ordered a virtual card but it hasn't come through yet
+",I ordered a virtual card but it hasn't come through yet,getting_virtual_card,getting_virtual_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Is top-up possible with Apple Pay?
+",Is top-up possible with Apple Pay?,apple_pay_or_google_pay,apple_pay_or_google_pay,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Can I change my PIN at any ATM?
+",Can I change my PIN at any ATM?,change_pin,atm_support,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I topped up my account but the app failed to process it.
+",I topped up my account but the app failed to process it.,top_up_failed,top_up_failed,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+A fee came along with me paying with card
+",A fee came along with me paying with card,card_payment_fee_charged,card_payment_fee_charged,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Where is my virtual card?
+",Where is my virtual card?,getting_virtual_card,getting_virtual_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+The bank charged me fees for withdrawing cash!
+",The bank charged me fees for withdrawing cash!,cash_withdrawal_charge,cash_withdrawal_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+how much for topping up by card?
+",how much for topping up by card?,top_up_by_card_charge,top_up_by_card_charge,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How do I close my account?
+",How do I close my account?,terminate_account,close_account,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Do you hold money and if so, what currencies do you accept?
+","Do you hold money and if so, what currencies do you accept?",fiat_currency_support,fiat_currency_support,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I cannot get my google pay to work.
+",I cannot get my google pay to work.,apple_pay_or_google_pay,apple_pay_or_google_pay,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I was checking my statement and I think one of my card payments has reverted
+",I was checking my statement and I think one of my card payments has reverted,reverted_card_payment?,reverted_card_payment,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+There was an extra fee when I paid with my card, why was i charged this extra fee?
+","There was an extra fee when I paid with my card, why was i charged this extra fee?",card_payment_fee_charged,card_payment_fee_charged,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why would my payment for my card show as pending?
+",Why would my payment for my card show as pending?,pending_card_payment,pending_card_payment,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How can I close my account?
+",How can I close my account?,terminate_account,close_account,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why did my top-up not work?
+",Why did my top-up not work?,top_up_failed,top_up_failed,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I'm interested in holding and exchange for flat currencies, what do you support?
+","I'm interested in holding and exchange for flat currencies, what do you support?",fiat_currency_support,fiat_currency_support,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I haven't received the cash from the check I deposited.
+",I haven't received the cash from the check I deposited.,balance_not_updated_after_cheque_or_cash_deposit,balance_not_updated_after_cheque_or_cash_deposit,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+How much do I have to pay if I want to transfer money?
+",How much do I have to pay if I want to transfer money?,transfer_fee_charged,top_up_by_bank_transfer_charge,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Need help with a stolen card.
+",Need help with a stolen card.,lost_or_stolen_card,lost_or_stolen_card,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I topped up my account but the money isn't there now.
+",I topped up my account but the money isn't there now.,topping_up_by_card,top_up_reverted,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+When do i activate auto top-up?
+",When do i activate auto top-up?,automatic_top_up,automatic_top_up,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I'm trying to purchase a flat but i need my first payment for my mortgage to go through first. I keep getting an error. I'm not sure what is going on but i need help making this transfer.
+",I'm trying to purchase a flat but i need my first payment for my mortgage to go through first. I keep getting an error. I'm not sure what is going on but i need help making this transfer.,failed_transfer,failed_transfer,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I can't find the auto-top up option.
+",I can't find the auto-top up option.,automatic_top_up,automatic_top_up,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+There seems to be an additional charge of £1 on my statement, what is the reason for this?
+","There seems to be an additional charge of £1 on my statement, what is the reason for this?",extra_charge_on_statement,extra_charge_on_statement,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Why is there a €1 charge on my statement?
+",Why is there a €1 charge on my statement?,extra_charge_on_statement,extra_charge_on_statement,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I don't think the exchange rate was right.
+",I don't think the exchange rate was right.,wrong_exchange_rate_for_cash_withdrawal,charged_exchange_rate_wrong,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I was charged twice for a restaurant, can you take the second charge off?
+","I was charged twice for a restaurant, can you take the second charge off?",transaction_charged_twice,extra_charge_on_statement,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+the product is not working, can I get a refund?
+","the product is not working, can I get a refund?",request_refund,refund_not_received,FALSE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+Tell me if there is a limit to top-up.
+",Tell me if there is a limit to top-up.,top_up_limits,top_up_limits,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+What are the age requirements for service?
+",What are the age requirements for service?,age_limit,age_limit,TRUE
+"Classify a banking-related user query into a single given intent.
+
+User query:
+I need my card as quick as possible
+",I need my card as quick as possible,card_delivery_estimate,card_delivery_estimate,TRUE
