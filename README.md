@@ -5,7 +5,7 @@ The goal is to measure how accurately modern LLMs can categorize real-world bank
 
 The project compares OpenAI and Anthropic models using a consistent evaluation pipeline, with additional prompt optimization using DSPy.
 
----
+--- 
 
 ## 🎯 Project Goal
 
